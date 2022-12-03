@@ -4,7 +4,7 @@ const $inputnode = document.querySelector("#inputnode");
 const $inputreact = document.querySelector("#inputreact");
 const $displaytotal = document.querySelector("#displaytotal");
 
-function totalStickers() {
+function countStickers() {
     // Suma valores ingresados
     const total = Number($inputjs.value) + Number($inputnode.value) + Number($inputreact.value);
 
