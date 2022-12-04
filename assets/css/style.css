@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.container__item_parte1{
+    width: 300px;
+    height: 300px;
+    border: 1px dashed black;
+    border-radius: 50%;
+    background-image: url("../img/screenshotp1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container__item_parte2{
+    width: 300px;
+    height: 300px;
+    border: 1px dashed black;
+    border-radius: 50%;
+    background-image: url("../img/screenshotp2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container__item_parte3{
+    width: 300px;
+    height: 300px;
+    border: 1px dashed black;
+    border-radius: 50%;
+    background-image: url("../img/screenshotp3.jpg") ;
+    background-size: cover;
+    background-position: center;
+}
+
+a {
+    text-decoration: none;
+  }
